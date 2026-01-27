@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    /* font-weight:normal (400) bold(700); */
+    font-size: 16px;
+    line-height: 1.6;
+    color:  #333333;
+    /* padding: 0 20px; */
+    background-color: #f5f4f5;
+}
+
+
+header{
+    background-color: #0d0d0d;
+    padding: 15px;
+    /* height: 75px; */
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 60px;
+ }
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+/* nav a:hover{
+    background-color: #0066cc;
+} */
+
+header li {
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+.active{
+    background-color: #0066cc;
+}
+
+.logo{
+    color: #ffffff;
+}
+
+
+.hero-section{
+    background-color: #0066cc;
+    color: #ffffff;
+    text-align: center;
+    /* height: 100px; */
+    padding: 20px;
+}
+.hero-section p {
+    padding-bottom: 15px;
+}
+.hero-section h1 {
+    padding-top:10px ;
+}
+
+h2{
+    color: #0066cc;
+    font-size: 24px;
+    margin: 5px;
+}
+
+h3{
+    font-size: 20px;
+    margin: 10px;
+}
+
+h1{
+    font-size: 32px;
+}
+
+.our-story{
+     /* padding: 20px; */
+     margin: 0 60px;
+     margin-top: 20px;
+}
+.our-story li{
+    margin-left:50pxpx ;
+}
+
+
+.why-choose-us{
+    /* max-width: 1000px; */
+    padding: 0 20px;
+    margin-bottom: 40px;
+    background-color: #e8fafc;
+    border-radius: 8px;
+    margin-left: 30px;
+    margin-right: 45px;
+}
+.why-choose-us li{
+    margin: 0 35px;
+    line-height: 30px;
+}
+
+.what-we-offer {
+     margin: 0 60px;
+
+}
+
+.what-we-offer li {
+        margin: 0 35px;
+}
+
+
+.our-services {
+    margin: 0 60px;
+
+}
+
+.border{
+    border-color: #ff6b35;
+    margin: 15px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+.image{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+
+footer{
+    background-color: #1a1a2e;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.5;
+    padding: 15px;
+    /* margin: 5px; */
+    width: 100%;
+}
+footer a {
+    color: #ff6b35;
+    text-decoration: none;
+}
+
